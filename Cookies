@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cookie Krisps - Delicious Chocolate Chip Cookies</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+        header {
+            background-color: #FF6347;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 3em;
+        }
+        header p {
+            font-size: 1.2em;
+        }
+        .main-content {
+            display: flex;
+            justify-content: center;
+            padding: 30px;
+        }
+        .product-card {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            margin: 15px;
+            width: 350px;
+            text-align: center;
+            padding: 20px;
+        }
+        .product-card img {
+            width: 100%;
+            border-radius: 8px;
+            height: 250px;
+            object-fit: cover;
+        }
+        .product-card h2 {
+            margin: 15px 0;
+            font-size: 2em;
+            color: #FF6347;
+        }
+        .product-card p {
+            font-size: 1.1em;
+            color: #555;
+            margin: 10px 0;
+        }
+        .product-card .price {
+            font-size: 1.5em;
+            color: #FF4500;
+            font-weight: bold;
+        }
+        .product-card button {
+            background-color: #FF6347;
+            color: white;
+            font-size: 1.1em;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .product-card button:hover {
+            background-color: #FF4500;
+        }
+        .section {
+            padding: 50px 20px;
+            text-align: center;
+            background-color: #fff;
+            margin-bottom: 30px;
+        }
+        .section h2 {
+            color: #FF6347;
+            font-size: 2.5em;
+        }
+        .section p {
+            font-size: 1.2em;
+            color: #555;
+            margin-top: 20px;
+        }
+        .testimonials {
+            background-color: #FF6347;
+            color: white;
+            padding: 40px 20px;
+        }
+        .testimonials h3 {
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+        .testimonials p {
+            font-size: 1.1em;
+            margin: 10px 0;
+            font-style: italic;
+        }
+        .footer {
+            background-color: #FF6347;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        .footer p {
+            margin: 0;
+        }
+        .disclaimer {
+            font-size: 0.9em;
+            color: #fff;
+            margin-top: 20px;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Cookie Krisps</h1>
+        <p>Deliciously Crispy Chocolate Chip Cookies Right to Your Door!</p>
+    </header>
+
+    <div class="main-content">
+        <div class="product-card">
+            <img src="https://lemonsandzest.com/wp-content/uploads/2020/02/Small-Batch-Chocolate-Chip-Cookies-Recipe-3.10.jpg?text=Chocolate+Chip+Cookies" alt="Chocolate Chip Cookies">
+            <h2>Chocolate Chip Cookies</h2>
+            <p>Our signature chocolate chip cookies are crispy on the outside, soft and gooey on the inside. Made with premium chocolate and love!</p>
+            <p class="price">$5.99</p>
+            <button>Add to Cart</button>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>How It Works</h2>
+        <p>We bake the finest chocolate chip cookies just for you! Here’s how it works:</p>
+        <ol style="text-align: left; margin: 0 auto; max-width: 600px;">
+            <li><strong>Order Your Cookies</strong> – Choose the number of cookies you’d like to try.</li>
+            <li><strong>Freshly Baked</strong> – We bake the cookies fresh, using premium ingredients.</li>
+            <li><strong>Enjoy at Home</strong> – Once they're ready, we'll ship them right to your door for the ultimate cookie experience.</li>
+        </ol>
+    </div>
+
+    <div class="testimonials">
+        <h3>What Our Customers Are Saying</h3>
+        <p>"These are the best chocolate chip cookies I’ve ever had! Crispy and gooey all at once. Will order again!" – Sarah M.</p>
+        <p>"I’ve never tasted cookies this fresh! The chocolate is perfect!" – John D.</p>
+    </div>
+
+    <div class="footer">
+        <p>&copy; 2024 Cookie Krisps | All Rights Reserved</p>
+        <p class="disclaimer">*Note: This website is a demonstration. You cannot actually order cookies from here.</p>
+    </div>
+
+</body>
+</html>
+
